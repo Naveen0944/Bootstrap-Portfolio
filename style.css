@@ -138,11 +138,11 @@
 #about5{
   border: 2px solid black;
   padding: 50px;
-  gap: 25px;
   color: rgb(82, 255, 220);
   font-size: 20px;
   font-weight: 700;
   text-align: center;
+  
 }
 
 .b{
@@ -156,9 +156,8 @@
 }
 
 #aboutbody{
-  position: relative;
-  top: 150px;
-  left:50px;
+padding-top: 100px;
+ padding-left: 200px;
 }
 
 #ico{
@@ -176,15 +175,10 @@
 
 
 .tech1,.tech2,.tech3{
-  position: relative;
-  left: 120px;
   border: 2px solid black;
   height: 150px;
-  width: 800px;
   margin: 80px;
-  align-items: center;
   text-align: center;
-  justify-content: center;
   padding: 30px;
   box-shadow: 10px 10px 50px rgb(123, 124, 121);
 }
@@ -203,19 +197,20 @@
 }
 
 .card1{
-  position: relative;
-  left: 750px;
-  top: -180px;
+  
   box-shadow: 0px 0px 50px rgb(194, 255, 103),0px 0px 50px rgb(194, 255, 103),0px 0px 50px rgb(194, 255, 103);
+}
+#edcard{
+  padding-top: 100px;
+  
+}
+#edcard1{
+  padding-top: 250px;
+  padding-bottom: 100px;
 }
 
 .educati{
   border-bottom: 5px solid rgb(175, 170, 170);
-  border-top: 10px;
-}
-
-.educate{
-  padding-bottom: 20px;
 }
 
 .contact-form {
